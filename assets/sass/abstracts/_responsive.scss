@@ -1,0 +1,11 @@
+@import './breakpoints';
+
+@mixin responsive($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media screen and #{inspect(map-get($breakpoints, $breakpoint))} {
+      @content;
+    }
+  } @else {
+    @error 'error -> #{map-keys($breakpoints)}';
+  }
+}

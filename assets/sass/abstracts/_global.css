@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'seguisb';
+  src: local('seguisb'), url('~assets/fonts/seguisb.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI'), url('~assets/fonts/Segoe UI.ttf') format('truetype');
+}
